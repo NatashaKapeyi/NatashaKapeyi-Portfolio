@@ -14,17 +14,19 @@
     --primary: black;
     --secondary:rgb(250, 234,234,1);
     --alternative:rgb(105,85,85,1) ;
-    --awesome:rgb(234,214,214,1)  ;
+    --awesome:rgb(234,214,214,1)  ; 
+    --background: rgba(255, 253, 253, 0.95);
     
 }
 body{
     font-family:'Castoro';
-    background-color: rgba(255, 253, 253, 0.95);
-    text-align: center;  background-image: url(https://i.postimg.cc/9fHMK9BJ/books-933293-1280.jpg);
+    background: #3D3535;
+    text-align: center; 
+    background-image: url(https://i.postimg.cc/9fHMK9BJ/books-933293-1280.jpg);
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: 1095px;
-    background-position: right top;
+    
 }
 
 a{
@@ -38,14 +40,41 @@ a{
     color: var(--alternative);
 }
 .nav-link {
-    color: var(--secondary)   
+    color: var(--secondary);
+    margin:0.5rem; 
 }
+/* #nav-bar {
+    position: relative;
+}
+#nav-bar::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--secondary);
+} */
+
 #home{
     /*background-color: rgba(61, 53, 53, 1);*/
     color: var(--awesome);
-    
-    
-   
+    /* margin-left: 20rem; */
+    position: relative;
+}
+#home::before {
+    content: url('https://i.postimg.cc/xTmv58NP/71503559-933286817027138-3322614729142173696-n-removebg-preview.png');
+    position: absolute;
+    top: 3rem;
+    left: 12rem;
+    /* filter: url(''); */
+    background-color: var(--background);
+}
+#More{
+width: 150;
+height: 75;
+background: #F3E9E9;
+
+
+
 
 }
-
