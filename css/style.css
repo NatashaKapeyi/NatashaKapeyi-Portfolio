@@ -20,14 +20,10 @@
 }
 body{
     font-family:'Castoro';
-    background: #3D3535;
-    text-align: center; 
-    background-image: url(https://i.postimg.cc/9fHMK9BJ/books-933293-1280.jpg);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: 1095px;
+    
     
 }
+
 
 a{
     transition: all .3s;
@@ -54,24 +50,44 @@ a{
     height: 4px;
     background-color: var(--secondary);
 } */
+#nav{
+    background: #3D3535;
+    background-image: url(https://i.postimg.cc/9fHMK9BJ/books-933293-1280.jpg);
+    background-repeat: no-repeat;
+    background-position-x:right ;
+    position: relative;
+    background-size: 1095px;
+}
 
 #home{
+    background: #3D3535;
+    text-align: center; 
+    background-image: url(https://i.postimg.cc/9fHMK9BJ/books-933293-1280.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 1095px;
     /*background-color: rgba(61, 53, 53, 1);*/
     color: var(--awesome);
     /* margin-left: 20rem; */
     position: relative;
+    margin-top: 0%;
+
 }
 #home::before {
     content: url('https://i.postimg.cc/xTmv58NP/71503559-933286817027138-3322614729142173696-n-removebg-preview.png');
     position: absolute;
-    top: 3rem;
+    top: 10rem;
     left: 12rem;
     /* filter: url(''); */
     background-color: var(--background);
+    height: 39rem;
+    width:27rem;
+    flex-shrink: 0;
+    
 }
+
 #More{
-width: 150;
-height: 75;
+
 background: #F3E9E9;
 }
 
