@@ -20,9 +20,7 @@
 }
 body{
     font-family:'Castoro';
-   overflow-x: hidden;
-    
-    
+     overflow-x: hidden; 
 }
 
 
@@ -75,15 +73,15 @@ a{
 
 }
 #home::before {
-    content: url('https://i.postimg.cc/xTmv58NP/71503559-933286817027138-3322614729142173696-n-removebg-preview.png');
+    content: url('https://i.postimg.cc/wBV7QW1M/71503559-933286817027138-3322614729142173696-n-removebg-preview-1.png');
     position: absolute;
-    top: 10rem;
+    top: 1.3rem;
     left: 12rem;
     /* filter: url(''); */
     background-color: var(--background);
-    height: 39rem;
+    height: 36.2rem;
     width:27rem;
-    flex-shrink: 0;
+   
     
 }
 
@@ -110,9 +108,16 @@ background: #F3E9E9;
 }
 img[alt="profile"]{
     margin-left: 60%;
-    width: fit-content;
-
+   
+   
 }
+#me{
+    color:#695555;
+    margin-top: 5rem;
+    font-family: 'inter';
+    
+}
+
 
 /* .circle{
     height: 100px;
