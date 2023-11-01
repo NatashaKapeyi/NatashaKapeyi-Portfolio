@@ -20,6 +20,7 @@
 }
 body{
     font-family:'Castoro';
+   overflow-x: hidden;
     
     
 }
@@ -91,3 +92,33 @@ a{
 background: #F3E9E9;
 }
 
+#firstL::first-letter{
+    font-size: 16rem;
+
+}
+#secondL,#thirdL{
+    font-size:8rem;
+
+}
+#thirdL{
+    top:-3rem;
+    left: 199px;
+    position: relative;
+}
+#about{
+    background-color: #FFFDFD;
+}
+img[alt="profile"]{
+    margin-left: 60%;
+    width: fit-content;
+
+}
+
+/* .circle{
+    height: 100px;
+    width: 100px;
+    background-color: #3D3535;
+    border-radius: 50%;
+    position: relative;
+    top: 90%;
+} */
