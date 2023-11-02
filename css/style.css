@@ -86,7 +86,7 @@ a{
     
 }
 
-#More{
+#More {
 
 background: #F3E9E9;
 }
@@ -127,11 +127,7 @@ img[alt="profile"]{
 
 
 
-/* .circle{
-    height: 100px;
-    width: 100px;
-    background-color: #3D3535;
-    border-radius: 50%;
-    position: relative;
-    top: 90%;
-} */
+#projects :is(.card) {
+    width: 19rem;
+    
+}
