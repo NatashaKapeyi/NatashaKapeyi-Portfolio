@@ -22,6 +22,7 @@
 body{
     font-family:'Castoro';
      /* overflow-x: auto;  */
+     
 }
 ::marker{
     color: white;
@@ -169,3 +170,45 @@ background-color: rgba(199, 176, 176, 0.78);
 .after{
     margin-top: 150px;
 }
+@media screen and (max-width: 900px) {
+    body {
+        background-color: blue;
+
+        
+    }
+    .container {
+        flex-flow: column wrap;
+        }
+        #home::before{
+            position: sticky;
+        }
+
+    }
+@media screen and (max-width: 700px) {
+    body {
+        background-color: blue;
+
+        
+    }
+    .container {
+        flex-flow: column wrap;
+        }
+        #home::before{
+           width: 10px;
+        }
+
+    }
+@media screen and (max-width: 300px) {
+    body {
+        background-color: blue;
+
+        
+    }
+    .container {
+        flex-flow: column wrap;
+        }
+        #home::before{
+            position: none;
+        }
+
+    }
