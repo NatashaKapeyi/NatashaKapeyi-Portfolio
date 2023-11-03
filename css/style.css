@@ -107,7 +107,7 @@ background: #F3E9E9;
     left: 199px;
     position: relative;
 }
-#about,#education,#projects,#testimonials{
+#about,#education,#projects,#testimonials,#contact{
     background-color: #FFFDFD;
 }
 img[alt="profile"]{
@@ -152,4 +152,15 @@ img[alt="profile"]{
    
 }
 #testimonials :is(.card) {
-    width: 15rem;}
+    width: 15rem;
+}
+.card{
+    background-color: rgba(199, 176, 176, 0.78);
+}
+#F1{
+background-color: rgba(199, 176, 176, 0.78);;
+}
+#F2{
+    font-size: 128px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
