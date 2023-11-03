@@ -23,6 +23,9 @@ body{
     font-family:'Castoro';
      /* overflow-x: auto;  */
 }
+::marker{
+    color: white;
+}
 
 
 a{
@@ -104,7 +107,7 @@ background: #F3E9E9;
     left: 199px;
     position: relative;
 }
-#about,#education,#projects{
+#about,#education,#projects,#testimonials{
     background-color: #FFFDFD;
 }
 img[alt="profile"]{
@@ -131,3 +134,22 @@ img[alt="profile"]{
     width: 19rem;
     
 }
+
+#qoutes{
+    margin-top: 10%;
+}
+
+.message{
+    padding: 10px;
+    width: 100%;
+
+}
+#p-text{
+    font-size: 14px;
+}
+.single-box{
+    position: relative;
+   
+}
+#testimonials :is(.card) {
+    width: 15rem;}
