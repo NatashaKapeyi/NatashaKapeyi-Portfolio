@@ -309,39 +309,53 @@
        </div>
        <div class="container-fluid">
        <div class="row d-block d-md-flex">
-        <div id="F1" class="col-8 col-md-3">
-          <h5 class="info-text text-uppercase">Information</h5>
+        <div id="F1" class="col-8 col-md-3 text-black">
+          <h5 id="infoHead" class="info-text text-uppercase fw-bold">Information</h5>
+          <div class="after fw-bold">
           <div class="Number">
           <p6 class="number"><i class="bi bi-telephone"></i> <a href="tel:+27810696733"class="text-black text-decoration-none ">+27 810696733</a></p6>
          </div>
           <div class="Email">
           <p6 class="email"><i class="bi bi-envelope"> </i><a href="mailto:natashazikhona7@gmail.com"class="text-black text-decoration-none ">natashazikhona7@gmail.com</a></p6>
         </div>
-        <div class="social-links">
+        <div class="social-links ">
          <a href="https://www.facebook.com/zish.kapeyi/?locale=da_DK&_rdr" target="_blank" class="text-decoration-none text-black"><i class="bi bi-facebook fs-2"></i></a>
          <a href="https://www.instagram.com/natasha_kapeyi/" target="_blank"class="text-decoration-none text-black"><i class="bi bi-instagram fs-2"></i></a>
          <a href="https://github.com/NatashaKapeyi" target="_blank"class="text-decoration-none text-black"> <i class="bi bi-github fs-2"></i></a>
         </div> 
       </div> 
+    </div>
         <div class="col-4">
-     <h1 id="F2" class=" text-uppercase text-end text-black my-3">Get in<span class="d-block ">Touch</span><span class="d-block">with</span>me </h1>
+     <h1 id="F2" class=" text-uppercase text-end text-black my-0">Get in<span class="d-block ">Touch</span><span class="d-block">with</span>me </h1>
        </div>
-       <div class="col col-md-">
-        <form>
+       
+       <div class="col col-md">
+        
+        <form action="https://formspree.io/f/xpzgndgj"
+        method="POST">
           <div class="mb-3 ">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            
+            <label for="firstname" class="form-label">First Name</label>
+            <input type="text" placeholder="Enter your name" name="firstname"  class="form-control" id="firstname"required>
+          </div>
+          <div class="mb-3 ">
+            <label for="lastname" class="form-label">Last Name</label>
+            <input type="text" placeholder="Enter your surname" name="lastname" class="form-control" id="lastname" required>
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" name="email" placeholder="Enter your email" id="exampleInputEmail1" required>
           </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+           </div>
+          
+          <div class="col-md-12">
+            <label for="message" class="form-label">Leave a message</label>
+            <textarea class="form-control" name="message" placeholder="Enter your message" id="message" rows="3" required></textarea>
           </div>
+          <div class="col-md-12">
           <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
         </form>
 
        </div>
